@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-contant{
+    text-align: center;
+}
+/* headfer section */
+.head{
+    text-align: center;
+}
+
+.head ul li{
+    display: inline-block;
+    padding: 10px;
+    background: #48dbfb;
+    transition: .5s;
+    
+}
+.head ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    font-size: 20px;
+}
+.head ul li:hover a{
+    color: #48dbfb;
+}
+.head ul li:hover{
+    background-color: #fff;
+    cursor: pointer; 
+    transition: .5s;
+}
+.head ul li a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+   
+    position: absolute;
+    
+}
+.head ul li:hover a::before{
+    width: 100%;
+}
+
+/* planner */
+.planner {
+    background-color: #48dbfb;
+    text-align: center;
+    padding: 77px 0;
+    margin-top: 10px;
+    color: #fff;
+}
+.planner h4 {
+    font-size: 26px;
+    font-weight: 100;
+    padding: 10px;
+}
+.planner h2{
+    font-size: 59px;
+    
+}
+
+.planner .google-div a img{
+    display: inline-block;
+}
+.planner .google-div a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #ddd;
+    position: relative;
+    top: 16px;
+    position: relative;
+    z-index: 1;
+}
+.planner .google-div a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color:#000;
+    transition: .5s;
+    z-index: -1;
+}
+.planner .google-div a:hover::before{
+    width: 100%;
+}
+/* imge section */
+
+
+.H-Effact{
+    width: 1100px;
+    margin: auto;
+}
+.H-Effact .text-div{
+font-size: 20px; 
+padding: 91px 0;
+
+}
+.H-Effact .text-div h2{
+    text-transform: uppercase;
+}
+.H-Effact .D-style img{
+    max-width: 100%;
+    margin: 5px;
+  
+}
+.H-Effact .D-style {
+    width: 250px;
+    height: 184px;
+    display: inline-block;
+    margin: 7px;
+    transition: .5s;
+}
+
+.item-1{
+    transform: rotate(0);
+}
+
+.item-2 {
+    transform: rotate(0);
+}
+.item-3{
+    transform: rotate(0);
+}
+
+.item-4 {
+    transform: rotate(0);
+}
+.item-5{
+    transform: rotate(0);
+}
+.item-6 {
+    transform: rotate(0);
+}
+.item-7{
+    transform: scale(1) rotate(0);
+}
+.item-8{
+    transform: scale(1) rotate(0);
+}
+/* hover */
+.item-1:hover{
+    transform: rotate(360deg);
+}
+.item-2:hover{
+    transform: rotate(10deg);
+}
+.item-3:hover{
+    transform: rotate(-10deg);
+}
+.item-4:hover{
+    transform: rotate(-17deg);
+}
+.item-5:hover{
+    transform: rotate(17deg);
+}
+.item-6:hover{
+    transform: rotate(360deg);
+}
+.item-7:hover{
+    transform: scale(1.2) rotate(3deg);
+}
+.item-8:hover{
+    transform: scale(1.2) rotate(-3deg);
+}
+/* fppter top section */
+.footer-top {
+    padding: 17px 0px;
+    width: 1031px;
+    margin: auto;
+    padding-top: 123px;
+}
+.footer-top h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+.footer-top p {
+    padding: 25px 0;
+}
+.footer-top span {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 20px;
+    margin: 0 50px;
+   
+    transition: .5s;
+}
+.step-div{
+    margin:0;
+}
+.step-1 {
+    transform: rotate(-31deg);
+}
+.step-1:hover{
+    transform: rotate(0);
+    background-color: #48dbfb;
+}
+.step-2 {
+    transform: scale(1);
+
+}
+.step-2:hover{
+    transform: scale(1.2);
+    background-color: #48dbfb;
+}
+.step-3{
+    transform: rotate(31deg);
+}
+.step-3:hover{
+    transform: rotate(0);
+    background-color: #48dbfb;
+}
+/* footer bottom */
+.footer {
+    background-color: #2e2f31;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
